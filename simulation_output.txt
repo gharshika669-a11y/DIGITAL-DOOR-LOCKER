@@ -1,0 +1,33 @@
+==============================================
+       DIGITAL DOOR LOCK SIMULATION
+==============================================
+
+TEST 1: System reset
+Door should be LOCKED and alarm OFF.
+
+TEST 2: Entering correct password
+Password = 1 2 3 4 5 6 7 8
+
+PASS: Door UNLOCKED.
+
+TEST 3: First wrong password
+Wrong attempts = 1, Alarm = 0
+
+TEST 4: Second wrong password
+Wrong attempts = 2, Alarm = 0
+
+TEST 5: Third wrong password
+Wrong attempts = 3, Alarm = 0
+
+TEST 6: Fourth wrong password
+Wrong attempts = 4, Alarm = 0
+
+TEST 7: Fifth wrong password
+PASS: Alarm ACTIVATED after 5 wrong attempts.
+
+TEST 8: Correct password after alarm
+PASS: Alarm remains active and door stays locked.
+
+==============================================
+          SIMULATION COMPLETED
+==============================================
